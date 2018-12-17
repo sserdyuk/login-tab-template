@@ -1,0 +1,40 @@
+/* Login */
+.page-login-container {
+    background-color: #3C59FD;
+    android-status-bar-background: #3C59FD;
+}
+.page-login {
+    background-color: #3C59FD;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: contain;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+}
+.company-name-container {
+    height: 30%;
+}
+.company-name{
+    margin-top: 60;
+}
+
+.company-logo {
+    flex-grow: 1;
+}
+
+.login-text {
+    margin-top: 60;
+    white-space: normal;
+}
+
+.btn-login {
+    color: #000000;
+    background-color: #ffffff;
+    margin-bottom: 20;
+}
+
+.btn-login:highlighted {
+    background-color: #EAEAEA;
+    color: #000000;
+}

@@ -1,0 +1,24 @@
+<TabView androidTabsPosition="bottom">
+  <page-router-outlet
+    *tabItem="{ title: 'Home', iconSource: getIconSource('home') }"
+    name="homeTab"
+  >
+    <!-- add actionBarVisibility="never" above to get rid of action bar -->
+  </page-router-outlet>
+
+  <page-router-outlet
+    *tabItem="{ title: 'Browse', iconSource: getIconSource('browse') }"
+    name="browseTab"
+    xactionBarVisibility="never"
+  >
+    <!-- add actionBarVisibility="never" above to get rid of action bar -->
+  </page-router-outlet>
+
+  <page-router-outlet
+    *tabItem="{ title: 'Search', iconSource: getIconSource('search') }"
+    name="searchTab"
+    xactionBarVisibility="never"
+  >
+    <!-- add actionBarVisibility="never" above to get rid of action bar -->
+  </page-router-outlet>
+</TabView>
