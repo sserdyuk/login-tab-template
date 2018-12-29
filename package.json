@@ -1,10 +1,10 @@
 {
     "nativescript": {
         "id": "org.nativescript.mytabng",
-        "tns-android": {
+        "tns-ios": {
             "version": "5.1.0"
         },
-        "tns-ios": {
+        "tns-android": {
             "version": "5.1.0"
         }
     },
@@ -18,7 +18,7 @@
         "@angular/animations": "~7.1.0",
         "@angular/common": "~7.1.0",
         "@angular/compiler": "~7.1.0",
-        "@angular/core": "~7.1.0",
+        "@angular/core": "~7.1.4",
         "@angular/forms": "~7.1.0",
         "@angular/http": "~7.1.0",
         "@angular/platform-browser": "~7.1.0",
@@ -28,7 +28,7 @@
         "nativescript-theme-core": "~1.0.4",
         "reflect-metadata": "~0.1.10",
         "rxjs": "~6.3.0",
-        "tns-core-modules": "~5.1.0",
+        "tns-core-modules": "~5.1.1",
         "zone.js": "^0.8.4"
     },
     "devDependencies": {
